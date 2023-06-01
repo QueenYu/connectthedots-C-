@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "cylon": "^0.22.1",
-    "cylon-gpio": "^0.22.1",
+    "cylon-gpio": "^0.30.1",
     "cylon-intel-iot": "^0.5.2",
     "noble": "^0.3.11",
     "noble-device": "^1.0.0",
