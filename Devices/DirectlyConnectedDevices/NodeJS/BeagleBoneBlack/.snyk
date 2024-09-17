@@ -1,0 +1,55 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - connectthedots > azure-iot-device-http > azure-iot-device > azure-storage > request > hawk > hoek:
+        patched: '2024-09-17T05:28:24.334Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          connectthedots > azure-iot-device-http > azure-iot-device >
+          azure-storage > request > hawk > hoek
+    - connectthedots > azure-iot-device > azure-storage > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T05:28:24.334Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          connectthedots > azure-iot-device > azure-storage > request > hawk >
+          cryptiles > boom > hoek
+    - connectthedots > azure-iot-device-http > azure-iot-device > azure-storage > request > hawk > boom > hoek:
+        patched: '2024-09-17T05:28:24.334Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          connectthedots > azure-iot-device-http > azure-iot-device >
+          azure-storage > request > hawk > boom > hoek
+    - connectthedots > azure-iot-device-http > azure-iot-device > azure-storage > request > hawk > sntp > hoek:
+        patched: '2024-09-17T05:28:24.334Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          connectthedots > azure-iot-device-http > azure-iot-device >
+          azure-storage > request > hawk > sntp > hoek
+    - connectthedots > azure-iot-device-amqp > azure-iot-device > azure-storage > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T05:28:24.334Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          connectthedots > azure-iot-device-amqp > azure-iot-device >
+          azure-storage > request > hawk > cryptiles > boom > hoek
+    - connectthedots > azure-iot-device-mqtt > azure-iot-device > azure-storage > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T05:28:24.334Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          connectthedots > azure-iot-device-mqtt > azure-iot-device >
+          azure-storage > request > hawk > cryptiles > boom > hoek
+    - connectthedots > azure-iot-device-http > azure-iot-device > azure-storage > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T05:28:24.334Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          connectthedots > azure-iot-device-http > azure-iot-device >
+          azure-storage > request > hawk > cryptiles > boom > hoek
+  'npm:tunnel-agent:20170305':
+    - connectthedots > azure-iot-device-http > azure-iot-device > azure-storage > request > tunnel-agent:
+        patched: '2024-09-17T05:28:24.334Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          connectthedots > azure-iot-device-http > azure-iot-device >
+          azure-storage > request > tunnel-agent
