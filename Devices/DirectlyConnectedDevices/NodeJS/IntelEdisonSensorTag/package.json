@@ -4,7 +4,9 @@
   "description": "Simple Node app sending data from Arduino Weather Shield to Azure Event Hubs",
   "main": "inteledisonsensortagctd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "MIT",
@@ -14,6 +16,8 @@
     "cylon-intel-iot": "^0.5.2",
     "noble": "^0.3.11",
     "noble-device": "^1.0.0",
-    "connectthedots":"^1.0.2"
-  }
+    "connectthedots": "^1.0.2",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
