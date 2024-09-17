@@ -4,14 +4,18 @@
   "description": "Simple Node app sending fake data from desktop to Azure IoT services",
   "main": "desktop.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-     "connectthedots":"^1.0.3"
+    "connectthedots": "^1.0.3",
+    "@snyk/protect": "latest"
   },
   "files": {
-    "settings":"./settings.json"
-  }
+    "settings": "./settings.json"
+  },
+  "snyk": true
 }
