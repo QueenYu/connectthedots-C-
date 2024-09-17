@@ -7,10 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "azure-iot-device": "1.0.15",
-    "azure-iot-device-amqp": "1.0.15",
-    "azure-iot-device-http": "1.0.15",
-    "azure-iot-device-mqtt": "1.0.15"
+    "azure-iot-device": "1.1.5",
+    "azure-iot-device-amqp": "1.1.5",
+    "azure-iot-device-http": "1.11.0",
+    "azure-iot-device-mqtt": "1.1.5"
   },
   "author": "Microsoft",
   "license": "MIT"
